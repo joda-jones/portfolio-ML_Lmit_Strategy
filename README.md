@@ -5,6 +5,7 @@
 # DEMO
 現在(2022/1/18(火))の損益は以下の用になっております｡
 
+<img width="567" alt="スクリーンショット 2022-01-18 14 07 27" src="https://user-images.githubusercontent.com/84313334/149874490-8c0855e5-1ea1-48a0-8e7a-1b42ac8658e4.png">
 
 # Features
 

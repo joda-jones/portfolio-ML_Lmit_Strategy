@@ -51,7 +51,7 @@ anacondaのbase環境をコピーした仮想環境を利用しました｡
 pip install -r requirements.txt
 ```
 
-不可能な場合は､
+不可能な場合は､以下をお試しください｡  
 ```
 pip install ccxt
 pip install discordwebhook
@@ -69,8 +69,30 @@ talibに関しては､OSごとにインストールが異なり､少し煩雑�
 
 
 # Note  
+### 各ファイルの概要
 
-[anaconda仮想環境を起動､.pyファイルをrunするバッチファイル作成方法](https://jodawithforce.hatenablog.com/)
+#### config.ini  
+apiKey､apiSecretを記述するファイルです｡  
+
+#### candle_open.py  
+設定した時間足のオープンを判定するクラスを記述しています｡
+
+#### func.py  
+指定されたフォーマットのohlcvデータを渡すと､  
+特徴量を作成したDFを返します｡  
+
+#### main.py  
+メインコードです｡  
+* 初期設定  
+    以下ループ  
+* 時間足のオープン判定  
+* 損益グラフ送信  
+* データ取得  
+* 特徴量作成  
+* モデルによる予測  
+* API操作による取引
+
+[anaconda仮想環境を起動､.pyファイルをrunするバッチファイル作成方法](https://jodawithforce.hatenablog.com/)  
 
 
 # Author
@@ -80,4 +102,5 @@ talibに関しては､OSごとにインストールが異なり､少し煩雑�
 
 # License
 None  
-エッジ保護のため､ ソフトウェアの複製、改変、（複製物または二次的著作物の）再頒布はご遠慮いただけますと幸いです｡  
+エッジ保護のため､ 
+ソフトウェアの複製、改変、（複製物または二次的著作物の）再頒布はご遠慮いただけますと幸いです｡  

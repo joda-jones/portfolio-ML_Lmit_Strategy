@@ -29,28 +29,26 @@
 
 <br>
 
-# Requirement
+# environment & Requirement  
+#### environment  
+windows10   
+anacondaのbase環境をコピーした仮想環境を利用しました｡  
 
-* huga 3.5.2
-* hogehuga 1.0.2
+#### Requirement  
+* ccxt 1.66.50  
+* discordwebhook 1.0.3  
+* crypto-data-fetcher 0.0.17  
+* TA-Lib 0.4.23  
+* pybotters 0.9.0   
+* seaborn 0.11.2  
 
-# Installation
-
-Requirementで列挙したライブラリなどのインストール方法を説明する
-
-```bash
-pip install huga_package
+```
+pip install -r requirements.txt
 ```
 
-# Usage
+# Usage   
+bybit
 
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
-
-```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
-```
 
 # Note
 
